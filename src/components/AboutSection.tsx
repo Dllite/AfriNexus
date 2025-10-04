@@ -121,7 +121,7 @@ export default function AboutSection() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Notre Vision</h3>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                Devenir un catalyseur incontournable du développement économique durable en Afrique 
+                Devenir un catalyseur du développement économique durable en Afrique 
                 en facilitant les partenariats stratégiques public-privé et en encourageant l&apos;attractivité des États africains.
               </p>
               
@@ -216,36 +216,20 @@ export default function AboutSection() {
             </div>
             
             <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
-              Le Mot de l&apos;Ambassadeur
+              Le Mot du Président
             </h3>
             
             <blockquote className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-4xl mx-auto mb-8 italic">
               &ldquo;L&apos;Afrique possède un potentiel économique extraordinaire qui ne demande qu&apos;à être révélé. 
-              Chez AfriNexus Forum, nous nous engageons à devenir un catalyseur incontournable du développement 
+              Chez AfriNexus Forum, nous nous engageons à devenir un catalyseur du développement 
               économique durable en facilitant les partenariats stratégiques entre les secteurs public et privé. 
               Notre vision est de renforcer l&apos;attractivité des États africains et de créer des espaces d&apos;échange 
               fructueux entre les entreprises africaines et internationales.&rdquo;
             </blockquote>
             
-            <div className="flex items-center justify-center space-x-8">
-              <div className="w-24 h-24 rounded-full overflow-hidden shadow-lg border-4 border-white dark:border-gray-800">
-                <Image
-                  src="/president-photo.jpg"
-                  alt="Photo de l'Ambassadeur ZOUNGUERE-SOKAMBI, Président d'AfriNexus Forum"
-                  width={96}
-                  height={96}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    // Fallback vers un placeholder si l'image n'existe pas
-                    const target = e.target as HTMLImageElement;
-                    target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iNDgiIGN5PSI0OCIgcj0iNDgiIGZpbGw9IiNkYzI2MjYiLz4KPGNpcmNsZSBjeD0iNDgiIGN5PSIzOCIgcj0iMTQiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0yNCA3MkMyNCA2MS4zOTYgMzIuMzk2IDUzIDQzIDUzSDUzQzYzLjYwNCA1MyA3MiA2MS4zOTYgNzIgNzJWNzZIMjRWNzJaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4=';
-                  }}
-                />
-              </div>
-              <div className="text-left">
-                <p className="font-bold text-gray-900 dark:text-white text-xl">Ambassadeur ZOUNGUERE-SOKAMBI</p>
-                <p className="text-afrinexus-red font-medium">Président d&apos;AfriNexus Forum</p>
-              </div>
+            <div className="text-center">
+              <p className="font-bold text-gray-900 dark:text-white text-xl">Ambassadeur ZOUNGUERE-SOKAMBI</p>
+              <p className="text-afrinexus-red font-medium">Président d&apos;AfriNexus Forum</p>
             </div>
           </div>
         </div>

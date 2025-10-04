@@ -1,4 +1,4 @@
-import { Globe, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react'
+import { Mail, Phone, MapPin, Linkedin } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Footer() {
@@ -30,17 +30,13 @@ export default function Footer() {
               entre l&apos;Afrique et le reste du monde.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-afrinexus-red transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-afrinexus-red transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-afrinexus-red transition-colors">
+              <a 
+                href="https://www.linkedin.com/company/afrinexus-forum/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-afrinexus-red transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-afrinexus-red transition-colors">
-                <Instagram className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -127,7 +123,10 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              © 2025 AfriNexus Forum. Tous droits réservés.
+              <div>© 2025 AfriNexus Forum. Tous droits réservés.</div>
+              <div className="text-gray-500 text-xs mt-2">
+                Association Loi n°61.233 du 27 mai 1901, agrément n°355/MATDDL/DIRCAB/DGAT/ DADSE/ SASE
+              </div>
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-afrinexus-red transition-colors text-sm">
